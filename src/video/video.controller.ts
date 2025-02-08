@@ -7,7 +7,7 @@ import {
 import { FileInterceptor } from '@nestjs/platform-express';
 import { VideoService } from './video.service';
 
-@Controller('videos')
+@Controller('video')
 export class VideoController {
   constructor(private readonly videoService: VideoService) {}
 
